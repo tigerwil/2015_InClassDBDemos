@@ -1,0 +1,33 @@
+/* 
+    Document   : site
+    Created on : Apr 23, 2012
+    Author     : mwilliams
+    Description: Format tables
+*/
+
+html{margin:0;padding:0}
+
+table{
+    border-collapse: collapse;
+    margin:10px;
+    width: 85%;
+    border: 1px solid #3E4B5C;
+}
+
+table tr th, table tr td{
+    padding:5px 10px;
+}
+
+table th{
+    background-color: #3E4B5C;
+    color: #fff;
+    text-align:left;       
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #E3EAF2;
+}
+
+tbody tr:nth-child(even){
+    background-color: #fff;
+}
