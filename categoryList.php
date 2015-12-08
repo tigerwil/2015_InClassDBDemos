@@ -36,7 +36,7 @@
         //1.  Build the sql query
         $q = "SELECT id, category FROM categories ORDER BY id";
         
-        //2.  Execute the query
+        //2.  Execute the query using mysqli library
         $r = mysqli_query($dbc, $q); //$dbc is the db connection
                                      //$q is the query to execute       
             
